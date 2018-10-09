@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67e95e79-4e40-4c38-b678-2627a82e81d7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/01-nodejs_origin/09-server_utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-nodejs_origin/10-server_filesysytem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-nodejs_origin/11-server_tools.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-nodejs_origin/12-server_web.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-nodejs_origin/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-nodejs_origin/13-server_express.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-nodejs_origin/14-server_restfulapi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-nodejs_origin/15-server_process.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-nodejs_origin/16-server_jxcore.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -20,21 +19,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="12-server_web.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/01-nodejs_origin/12-server_web.js">
+    <leaf>
+      <file leaf-file-name="16-server_jxcore.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/01-nodejs_origin/16-server_jxcore.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01-nodejs_origin/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+            <state relative-caret-position="400">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -44,8 +37,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -64,6 +57,10 @@
         <option value="$PROJECT_DIR$/01-nodejs_origin/11-server_tools.js" />
         <option value="$PROJECT_DIR$/01-nodejs_origin/index.html" />
         <option value="$PROJECT_DIR$/01-nodejs_origin/12-server_web.js" />
+        <option value="$PROJECT_DIR$/01-nodejs_origin/13-server_express.js" />
+        <option value="$PROJECT_DIR$/01-nodejs_origin/14-server_restfulapi.js" />
+        <option value="$PROJECT_DIR$/01-nodejs_origin/15-server_process.js" />
+        <option value="$PROJECT_DIR$/01-nodejs_origin/16-server_jxcore.js" />
       </list>
     </option>
   </component>
@@ -77,10 +74,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="7" />
-    <option name="y" value="36" />
-    <option name="width" value="899" />
-    <option name="height" value="990" />
+    <option name="x" value="10" />
+    <option name="y" value="38" />
+    <option name="width" value="1032" />
+    <option name="height" value="985" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -88,7 +85,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -105,6 +101,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -162,7 +159,8 @@
       <workItem from="1537323984211" duration="65000" />
       <workItem from="1537867614023" duration="430000" />
       <workItem from="1538183285112" duration="1637000" />
-      <workItem from="1538968350337" duration="8333000" />
+      <workItem from="1538968350337" duration="8368000" />
+      <workItem from="1539069109709" duration="2278000" />
     </task>
     <task id="LOCAL-00001" summary="05-08 nodejs 基础知识 上传">
       <created>1538981418422</created>
@@ -171,11 +169,18 @@
       <option name="project" value="LOCAL" />
       <updated>1538981418423</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="09-12 nodejs 基础知识 上传">
+      <created>1538991203819</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1538991203819</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10479000" />
+    <option name="totallyTimeSpent" value="12792000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -187,17 +192,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="7" y="36" width="899" height="990" extended-state="0" />
+    <frame x="10" y="38" width="1032" height="985" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2891986" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.250503" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32978722" />
-      <window_info anchor="bottom" id="Messages" weight="0.32978722" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32978722" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289183" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3289183" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3289183" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32978722" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -208,6 +211,8 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32978722" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,7 +249,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="05-08 nodejs 基础知识 上传" />
-    <option name="LAST_COMMIT_MESSAGE" value="05-08 nodejs 基础知识 上传" />
+    <MESSAGE value="09-12 nodejs 基础知识 上传" />
+    <option name="LAST_COMMIT_MESSAGE" value="09-12 nodejs 基础知识 上传" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/01-nodejs_origin/04-server_buffer.js">
@@ -332,8 +338,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/01-nodejs_origin/12-server_web.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+        <state relative-caret-position="375">
+          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-nodejs_origin/13-server_express.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-nodejs_origin/14-server_restfulapi.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-nodejs_origin/15-server_process.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="658">
+          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-nodejs_origin/16-server_jxcore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
