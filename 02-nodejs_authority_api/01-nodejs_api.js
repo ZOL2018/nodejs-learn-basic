@@ -108,19 +108,111 @@ if (cluster.isMaster) {
 // # stdout是非阻塞的，而stderr是阻塞的
 
 // /Node.js 模块
+// #Node.js有简单的模块加载系统。
+// 在Node.js模块系统中，每个文件都可以被当作单独的模块
+
+// /Node.js 加密
+// # Node.js加密模块通过使用require('crypto')来访问。
+// Node.js加密模块提供了HTTP或HTTPS连接过程中封装安全凭证的方法。
+// Node.js加密模块还提供了OpenSSL的哈希，hmac、加密（cipher）、
+// 解密（decipher）、签名（sign）和验证（verify）方法的封装。
+
+
+// /Node.js 流
+// #面向流消费者的API
+// 流可以是可读（Readable），可写（Writable），
+// 或者是可读可写的（Duplex，双工）。
+// 所有的流都是事件分发器（EventEmitters），
+// 但是也有自己的方法和属性，这取决于他它们是可读（Readable），
+// 可写（Writable），或者兼具两者（Duplex，双工）的。
+
+// /Node.js 网络
+// # net模块提供了异步网络封装，
+// 该Node.js模块包含了创建服务器/客户端的方法（调用 streams），
+// 你可以通过调用 require('net') 包含这个模块，
+
+// /Node.js 调试器
+// #V8提供了强大的调试工具，
+// 可以通过TCP protocol从外部访问。
+// Node内置这个调试工具客户端。
+// 使用这个调试器的方法是，
+// 以debug参数启动Node.js，
+// 将会出现提示，指示调试器成功启动
+
+// /Node.js 字符串解码器
+// #Node.js字符串解码器（string_decoder）模块的使用是
+// 通过require('string_decoder')实现的。
+// Node.js字符串解码器（string_decoder）用于将缓存（buffer）解码为字符串。
+// 这是buffer.toString()的简单接口，提供了utf8支持
+
+// /Node.js 系统
+// #Node.js系统（OS）模块提供一些与基本的操作系统有关的函数。
+// 使用require('os')访问这个模块
+
+// /Node.js DNS
+// #通过调用require('dns')来访问DNS模块
+
+// /Node.js 定时器
+// #Node.js定时器模块提供了全局API，用于在以后的某个时间段调用函数。
+// 所有的定时器函数都是全局的。不需要通过require()就可以访问。
+
+// /Node.js 路径
+// #Node.js路径（path）模块包含一系列用于处理和转换文件路径的工具集。
+// 基本所有的反复都仅对字符串转换。文件系统不会检查路径是否有效。
+// 你可以通过require('path')来访问这个模块
+
+// /Node.js 域
+// #Node.js域包含了能把不同的IO操作看成单独组的方法。
+// 如果任何一个注册到域的事件或者回调触发error事件，
+// 或者抛出一个异常，则域就会接收到通知，
+// 而不是在process.on('uncaughtException')处理程序中丢失错误的上下文，
+// 也不会使程序立即以错误代码退出
+
+// /Node.js TLS/SSL
+// #Node.js可以使用require('tls')来访问TLS/SSL模块
+
+// /Node.js 进程
 // #
 
+// /Node.js TTY
+// #Node.js的tty模块包含tty.ReadStream和tty.WriteStream类，
+// 多数情况下，你不必直接使用这个模块
 
+// /Node.js UDP/Datagram
+// #Node.js的dgram模块提供了UDP数据报套接字的实现。
+// 使用数据报文sockets(Datagram sockets)的方式是调用require('dgram')
 
+// /Node.js URL
+// #Node.js的URL模块提供了用于分析和解析URL的实用程序。
+// 可以调用require('url')来访问
 
+// /Node.js 实用工具
+// #本节介绍Node.js的'util'模块中的函数的使用，
+// 通过require('util')访问该模块
 
+// /Node.js 虚拟机
+// #Node.js的虚拟机（VM）模块，
+// 该模块提供了用于在V8虚拟机上下文中编译和运行代码的API。
+// 可以通过以下方法访问该模块：
+// var vm = require('vm');
 
+// /Node.js ZLIB
+// #ZLIB模块的使用，你可以通过以下方式访问这个模块：
+// var zlib = require('zlib');
+// 这个模块提供了对Gzip/Gunzip, Deflate/Inflate,
+// 和 DeflateRaw/InflateRaw类的绑定。
+// 每个类都有相同的参数和可读/写的流。
 
+// /
+// #
 
+// /
+// #
 
+// /
+// #
 
-
-
-
+// /
+// #
 
 

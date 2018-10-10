@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67e95e79-4e40-4c38-b678-2627a82e81d7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/02-nodejs_authority_api/01-nodejs_api.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-nodejs_authority_api/01-nodejs_api.js" beforeDir="false" afterPath="$PROJECT_DIR$/02-nodejs_authority_api/01-nodejs_api.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,12 +16,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="01-nodejs_api.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/02-nodejs_authority_api/01-nodejs_api.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="115" lean-forward="true" selection-start-line="115" selection-end-line="115" />
+            <state relative-caret-position="497">
+              <caret line="207" lean-forward="true" selection-start-line="207" selection-end-line="207" />
             </state>
           </provider>
         </entry>
@@ -69,9 +69,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="10" />
-    <option name="y" value="38" />
-    <option name="width" value="1032" />
+    <option name="x" value="-3" />
+    <option name="y" value="40" />
+    <option name="width" value="967" />
     <option name="height" value="985" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -155,7 +155,8 @@
       <workItem from="1537867614023" duration="430000" />
       <workItem from="1538183285112" duration="1637000" />
       <workItem from="1538968350337" duration="8368000" />
-      <workItem from="1539069109709" duration="4460000" />
+      <workItem from="1539069109709" duration="4507000" />
+      <workItem from="1539135030508" duration="2277000" />
     </task>
     <task id="LOCAL-00001" summary="05-08 nodejs 基础知识 上传">
       <created>1538981418422</created>
@@ -178,11 +179,18 @@
       <option name="project" value="LOCAL" />
       <updated>1539071426013</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="nodejs api 01">
+      <created>1539079241900</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1539079241900</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14974000" />
+    <option name="totallyTimeSpent" value="17298000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -194,27 +202,27 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="38" width="1032" height="985" extended-state="0" />
+    <frame x="-3" y="40" width="967" height="985" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.250503" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2669537" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32978722" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3289183" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3289183" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32978722" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3289183" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32978722" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32978722" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,9 +261,17 @@
     <MESSAGE value="05-08 nodejs 基础知识 上传" />
     <MESSAGE value="09-12 nodejs 基础知识 上传" />
     <MESSAGE value="13-16 nodejs 基础知识 上传 -- 完结" />
-    <option name="LAST_COMMIT_MESSAGE" value="13-16 nodejs 基础知识 上传 -- 完结" />
+    <MESSAGE value="nodejs api 01" />
+    <option name="LAST_COMMIT_MESSAGE" value="nodejs api 01" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/02-nodejs_authority_api/01-nodejs_api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2875">
+          <caret line="115" lean-forward="true" selection-start-line="115" selection-end-line="115" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/01-nodejs_origin/04-server_buffer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1300">
@@ -350,9 +366,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -374,16 +387,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/02-nodejs_authority_api/01-nodejs_api.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="115" lean-forward="true" selection-start-line="115" selection-end-line="115" />
+        <state relative-caret-position="497">
+          <caret line="207" lean-forward="true" selection-start-line="207" selection-end-line="207" />
         </state>
       </provider>
     </entry>
